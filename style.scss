@@ -5,6 +5,9 @@
 .fondmenu {
     background-image: url("photo/fond2.jpg");
     height:250px;
+    @media (max-width: 768px){
+        height: 275px;
+    }
 }
 
 .justifytext {
@@ -24,6 +27,9 @@
 
 nav {
     margin-top: 0px;
+    @media (max-width: 768px){
+        margin-top: 25px;
+    }
     ul {
         list-style-type: none;
         a {

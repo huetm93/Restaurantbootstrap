@@ -2,6 +2,9 @@
 .fondmenu {
   background-image: url("photo/fond2.jpg");
   height: 250px; }
+  @media (max-width: 768px) {
+    .fondmenu {
+      height: 275px; } }
 
 .justifytext {
   padding: -20px; }
@@ -15,6 +18,9 @@
 /* Barre de Navigation */
 nav {
   margin-top: 0px; }
+  @media (max-width: 768px) {
+    nav {
+      margin-top: 25px; } }
   nav ul {
     list-style-type: none; }
     nav ul a {
