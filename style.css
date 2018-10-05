@@ -1,0 +1,91 @@
+/* HEADER */
+.fondmenu {
+  background-image: url("photo/fond2.jpg");
+  height: 250px; }
+
+.justifytext {
+  padding: -20px; }
+
+.aligntxt {
+  text-align: center; }
+
+.sizerow {
+  height: 247px; }
+
+/* Barre de Navigation */
+nav {
+  margin-top: 0px; }
+  nav ul {
+    list-style-type: none; }
+    nav ul a {
+      color: black;
+      border-right: black 1px solid; }
+      nav ul a li {
+        display: inline-block;
+        width: 250px;
+        height: 40px;
+        margin: 0px;
+        padding: 0px;
+        text-align: center; }
+        nav ul a li:hover {
+          background-color: black;
+          color: white; }
+
+/* 3 images body */
+.imgsize {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  padding: 10px 0px; }
+
+.container .col-md-4 {
+  text-align: center; }
+
+.card {
+  margin: 15px 35px;
+  -webkit-box-shadow: 5px 5px 4px gray;
+  box-shadow: 5px 5px 4px gray; }
+
+.bgcard {
+  background-color: #DAE2E1; }
+
+.justify {
+  text-align: justify; }
+
+.rowNav {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+/* footer */
+.bgcolorup {
+  background-color: gray; }
+
+.logosize {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 70px; }
+
+.lien {
+  color: black; }
+  .lien:hover {
+    color: white; }
+
+/* menu */
+.imgsizemenu {
+  height: 250px;
+  width: 250px; }
+
+.carcenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.imgsizemenus {
+  height: 250px;
+  width: 250px;
+  border-radius: 25px;
+  margin: 10px; }
